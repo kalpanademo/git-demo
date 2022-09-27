@@ -8,7 +8,8 @@ Enterprise Scale Landing Zone Helper is a re-usable asset which can be used acro
 This document is intended for the Azure Cloud Engineering and DevOps teams which are in process of building an Azure Landing Zone.
 
 # <span style="color:#00bfff">DCA Enterprise Scale landing Zone Implementation<span>
-##What is an Enterprise Scale Landing Zone?
+What is an Enterprise Scale Landing Zone?
+
 Enterprise Scale Landing Zones are a core capability enabled through the Microsoft Azure Cloud Adoption Framework. ESLZ can be implemented on the following topologies.
 1. Hub & Spoke Network Topology
 A hub and spoke network topology allow you to create a central Hub Virtual Network that contains shared networking components (such as Azure Firewall) that can then be used by spoke Virtual Networks, connected to the Hub Virtual Network via VNET Peering, to centralize connectivity in your environment. Gateway transit in Virtual Network peering allows spokes to have connectivity to/from on-premises via ExpressRoute or VPN (Virtual Private Network), and transitive connectivity across spokes can be implemented by deploying User Defined Routes (UDR) on the spokes and using Azure Firewall or an NVA in the hub as the transit resource. For more information about Hub & Spoke network topology, please refer to this [link](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke?tabs=cli).
@@ -18,7 +19,8 @@ Virtual WAN simplifies end-to-end network connectivity in Azure, and to Azure fr
 
 <u>Note:</u> The current version of the ESLZ implementation supports Hub & Spoke Network Topology implementation. Azure Virtual WAN will be supported in the later versions.
 
-##What does the Enterprise Scale Landing Zone Implementation provide?
+What does the Enterprise Scale Landing Zone Implementation provide?
+
 ESLZ Implementation provides the following
 1. Readymade YAML based pipelines for deployment using ARM, Bicep and PowerShell
 ESLZ provides readymade Azure DevOps YAML based pipelines which can be configured on your DevOps project with minimal changes. These pipelines have well defined stages and tasks. These pipelines are as follows:
