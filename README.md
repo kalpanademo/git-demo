@@ -274,7 +274,7 @@ To create a service connection in Azure DevOps, please follow the steps below:
 
 **<u>Note:</u>** Please enable “Grant access permission to all pipelines”, only if needed. During the first execution of a pipeline using this service connection, the pipeline will request for an explicit grant of permission to the service connection. This will ensure that only those pipelines which uses the service connection will have the access for the same.
 
-##ESLZ Code Configuration
+ESLZ Code Configuration
 
 _**Get Access to ESLZ Repo**_
 
