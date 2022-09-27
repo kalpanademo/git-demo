@@ -108,7 +108,8 @@ The various extensibility points are as follows:
 
 # <span style="color:#00bfff">Steps to implement the Enterprise Scale Landing zone using the DCA implementation</span>
 ![Picture1.png](/.attachments/Picture1-2425b69b-47ae-413f-a572-05cc9cde3ca1.png)
-##Azure Platform Configuration
+   
+Azure Platform Configuration
 
 _**Pre-requisites**_
 - Required subscriptions identified and created
@@ -150,7 +151,7 @@ _**Create Service Principal**_
          - b. Click on “+ New Client Secret”
          - c. Add a meaningful description (i.e., “AzDo-ESLZ-Pipelines”)
          - d. Select expiration time as per your organization’s secret management policies (Custom time up to 24 months).
-           - i. Note: If the secret expires, a new one must be created and then the corresponding Azure DevOps Service Connection must be updated to use the new secret. Otherwise, the pipeline will fail.
+           - i. Note: If the secret expires, a new one must be created and then the corresponding Azure DevOps Service Connection must be updated to use the new      secret. Otherwise, the pipeline will fail.
          - e. Outcome:
 
               ![Picture2.png](/.attachments/Picture2-ac1b35f3-4bdb-406b-a40c-a1fecaad28c8.png)
@@ -211,7 +212,7 @@ To secure access to this Service Principal, please ensure the following:
 2. Remember that this Application Registration/SPN will have Owner at the Root Management Group Level. It is of utmost importance to exercise caution and limit the owners
 3. This can be set by selecting “Owners” under Manage section of the application registration. Note: You need to have an AAD Group created previously for this.
 
-##Azure DevOps Configuration
+Azure DevOps Configuration
 
 _**Pre-requisites**_
 - DevOps organization
@@ -617,7 +618,7 @@ _**Configure AzOps Pipelines**_
 
          ![Picture9.png](/.attachments/Picture9-de5135cc-4ab4-4cab-8d59-31bc9fc60598.png)
 
-##Execution and Validation
+Execution and Validation
 
 _**Pipeline Execution**_
 
@@ -679,7 +680,7 @@ The status of the pipeline execution can be validated by doing the below.
 
    ![Picture12.png](/.attachments/Picture12-291fe1f4-9bac-4924-a085-15b08c0399dc.png)
 
-##Clean up - Tearing down the Environment
+Clean up - Tearing down the Environment
 
 In case you want to tear down the environment created by execution of ESLZ pipeline, you can simply:
 1. Go to you your ESLZ pipeline 
