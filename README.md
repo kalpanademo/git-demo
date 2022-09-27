@@ -81,7 +81,7 @@ ESLZ implementation uses AzOps to pull the state from the subscriptions and vali
 5. Script validation using ARM ttk
 The ESLZ implementation has integrated script validation for ARM templates and Bicep templates along with the pipeline using ARM ttk. This provides the required validation before executing the templates to build the platform elements.
 <br/>
-# <span style="color:#00bfff">Enterprise Scale Landing Zone Foundation Setup Execution Flow</span>
+Enterprise Scale Landing Zone Foundation Setup Execution Flow
 The following diagram details the execution flow of the Enterprise Scale Landing Zone foundation setup. 
 
 ![Arch1.png](/.attachments/Arch1-5577c8a9-974a-4bf5-8ea9-4cdfe129a77c.png)
